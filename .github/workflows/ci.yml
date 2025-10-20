@@ -39,7 +39,7 @@ jobs:
         uses: docker/login-action@v2
         with:
          username: ${{ secrets.DOCKERHUB_RAIOVICIDELIA}} # Folosește un secret!
-         password: ${{ secrets.DOCKERHUB_DCKR_PAT_DUPGDCV0VTMKH8XKLI1KET2DESO}}   # Folosește un secret!
+         password: ${{ secrets.DOCKERHUB_dckr_pat_wtoe8WnQ2H_wM8jDsNxViQAvzBA}}   # Folosește un secret!
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
